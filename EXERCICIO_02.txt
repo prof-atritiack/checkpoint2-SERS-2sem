@@ -1,0 +1,17 @@
+EXERCÍCIO 2
+Treinar um modelo de regressão linear para prever os valores da coluna 'stab'. 
+sklearn ----> LinearRegression 
+
+Para essa tarefa é necessário que o grupo encontre as features 
+que possuam maior correlação linear com a variável alvo 'stab'. 
+
+Dica: 
+Crie uma matriz de correlação usando heatmap com o matplotlib e/ou seaborn
+
+y ---> target ---> dados da coluna 'stab' 
+X ---> features ------> dataframe com as features com maior correlação linear com a coluna 'stab' 
+----> no mínimo 3 atributos
+
+Métricas: Coeficiente de determinação R2 MAE MSE
+
+Gerar os gráficos de correlação entre 'stab' e as variáveis de entrada. Gerar o gráfico Real x Previsto
